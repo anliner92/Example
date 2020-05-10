@@ -1,7 +1,0 @@
-.menu-container {
-	padding: 1rem 0 1rem 0;
-	transition: all 400ms ease-in-out;
-	z-index: 1;
-	background-color: rgba(255, 255, 255, 0.85);
-	border: red solid 1px;
-}
