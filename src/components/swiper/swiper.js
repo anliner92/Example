@@ -1,11 +1,11 @@
-import React from "react"
-import Swiper from "react-id-swiper"
-import { Pagination, Navigation } from "swiper/dist/js/swiper.esm"
-import "react-id-swiper/lib/styles/css/swiper.css"
+import React from "react";
+import Swiper from "react-id-swiper";
+import { Navigation, Pagination } from "swiper/js/swiper.esm";
+import "swiper/css/swiper.css";
 
 class SwiperSample extends React.Component {
 	render() {
-		const { children, slidesperview } = this.props
+		const { children, slidesperview } = this.props;
 		const params = {
 			modules: [Pagination, Navigation],
 			slidesPerView: slidesperview,
@@ -39,9 +39,9 @@ class SwiperSample extends React.Component {
 			//     spaceBetween: 10
 			//   }
 			// }
-		}
-		return <Swiper {...params}>{children}</Swiper>
+		};
+		return <Swiper {...params}>{children}</Swiper>;
 	}
 }
 
-export default SwiperSample
+export default SwiperSample;
